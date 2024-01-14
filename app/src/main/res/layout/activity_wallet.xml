@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".WalletActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_back"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/baseline_arrow_back_black_48dp"
+                app:tint="@color/black"
+                tools:ignore="InvalidId" />
+
+            <TextView
+                android:id="@+id/text_toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:text="My Wallet"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        app:cardCornerRadius="18sp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#1EB6A8"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Balance"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:layout_marginTop="19sp"
+        android:textSize="@dimen/_20sdp"/>
+            <TextView
+                android:id="@+id/my_balance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="₹0"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frequently Asked Questions"
+            android:layout_margin="20sp"
+            android:textColor="#424E4A"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginBottom="10sp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="How can i use Wallet?"
+                    android:layout_margin="20sp"
+
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="5sp"
+                    android:textColor="#2E2C2C"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="20sp"
+
+                    android:background="#EDEDED"
+                    android:padding="10sp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+
+                    android:text="How can i use Wallet?"
+                    android:textColor="#2E2C2C"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:background="#EDEDED"
+                    android:padding="10sp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:text="How can i check my wallet history?"
+                    android:textColor="#2E2C2C"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="20sp"
+                    android:background="#EDEDED"
+                    android:padding="10sp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:text="Can I add Money into the Wallet?"
+                    android:textColor="#2E2C2C"
+                    android:textSize="15dp">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:background="#EDEDED"
+                    android:padding="10sp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:text="Can I choose not to use the Wallet?"
+                    android:textColor="#2E2C2C"
+                    android:textSize="15dp">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

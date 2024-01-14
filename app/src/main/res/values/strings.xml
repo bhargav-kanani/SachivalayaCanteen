@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sachivalaya Canteen</string>
+    <string name="home_library">Home Library</string>
+    <string name="remove_from_cart">Remove from cart</string>
+    <string name="cart">Cart</string>
+    <string name="welcome">Welcome</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="no_account_yet_create_one_here">No account yet? create one here</string>
+    <string name="registration">Registration</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="mobile">Mobile</string>
+    <string name="gender">Gender</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="welcome_guest">Welcome, guest</string>
+    <string name="categories">Categories</string>
+    <string name="place_order">Place order</string>
+    <string name="about_us">About us</string>
+    <string name="my_orders">My Orders</string>
+    <string name="order_detail">Order Detail</string>
+    <string name="sachivalaya_canteen">Sachivalaya Canteen</string>
+
+</resources>
